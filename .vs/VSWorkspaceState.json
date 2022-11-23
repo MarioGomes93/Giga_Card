@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\GigaCard",
+    "\\GigaCard\\Areas",
+    "\\GigaCard\\Areas\\Identity",
+    "\\GigaCard\\Areas\\Identity\\Pages",
+    "\\GigaCard\\Controllers",
+    "\\GigaCard\\Data",
+    "\\GigaCard\\Models",
+    "\\GigaCard\\Views",
+    "\\GigaCard\\wwwroot"
+  ],
+  "SelectedNode": "\\GigaCard\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}

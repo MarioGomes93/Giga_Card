@@ -77,3 +77,12 @@ C:\Projetos\Giga_Card\GigaCard\obj\Debug\net7.0\refint\GigaCard.dll
 C:\Projetos\Giga_Card\GigaCard\obj\Debug\net7.0\GigaCard.pdb
 C:\Projetos\Giga_Card\GigaCard\obj\Debug\net7.0\GigaCard.genruntimeconfig.cache
 C:\Projetos\Giga_Card\GigaCard\obj\Debug\net7.0\ref\GigaCard.dll
+C:\Projetos\Giga_Card\GigaCard\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Projetos\Giga_Card\GigaCard\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Projetos\Giga_Card\GigaCard\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Projetos\Giga_Card\GigaCard\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+C:\Projetos\Giga_Card\GigaCard\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projetos\Giga_Card\GigaCard\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Projetos\Giga_Card\GigaCard\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Projetos\Giga_Card\GigaCard\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+C:\Projetos\Giga_Card\GigaCard\bin\Debug\net7.0\Rotativa.AspNetCore.dll

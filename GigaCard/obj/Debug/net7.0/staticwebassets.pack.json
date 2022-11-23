@@ -245,6 +245,22 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Projetos\\Giga_Card\\GigaCard\\wwwroot\\rotativa\\help-whhtmltopdf.txt",
+      "PackagePath": "staticwebassets\\rotativa\\help-whhtmltopdf.txt"
+    },
+    {
+      "Id": "C:\\Projetos\\Giga_Card\\GigaCard\\wwwroot\\rotativa\\help-wkhtmltoimage.txt",
+      "PackagePath": "staticwebassets\\rotativa\\help-wkhtmltoimage.txt"
+    },
+    {
+      "Id": "C:\\Projetos\\Giga_Card\\GigaCard\\wwwroot\\rotativa\\whhtmltoimage.exe",
+      "PackagePath": "staticwebassets\\rotativa\\whhtmltoimage.exe"
+    },
+    {
+      "Id": "C:\\Projetos\\Giga_Card\\GigaCard\\wwwroot\\rotativa\\whhtmltopdf.exe",
+      "PackagePath": "staticwebassets\\rotativa\\whhtmltopdf.exe"
+    },
+    {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.GigaCard.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
