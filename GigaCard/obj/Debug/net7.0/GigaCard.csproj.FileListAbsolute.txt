@@ -86,3 +86,15 @@ C:\Projetos\Giga_Card\GigaCard\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
 C:\Projetos\Giga_Card\GigaCard\bin\Debug\net7.0\Newtonsoft.Json.dll
 C:\Projetos\Giga_Card\GigaCard\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
 C:\Projetos\Giga_Card\GigaCard\bin\Debug\net7.0\Rotativa.AspNetCore.dll
+C:\Projetos\Giga_Card\GigaCard\bin\Debug\net7.0\itext.barcodes.dll
+C:\Projetos\Giga_Card\GigaCard\bin\Debug\net7.0\itext.forms.dll
+C:\Projetos\Giga_Card\GigaCard\bin\Debug\net7.0\itext.io.dll
+C:\Projetos\Giga_Card\GigaCard\bin\Debug\net7.0\itext.kernel.dll
+C:\Projetos\Giga_Card\GigaCard\bin\Debug\net7.0\itext.layout.dll
+C:\Projetos\Giga_Card\GigaCard\bin\Debug\net7.0\itext.pdfa.dll
+C:\Projetos\Giga_Card\GigaCard\bin\Debug\net7.0\itext.sign.dll
+C:\Projetos\Giga_Card\GigaCard\bin\Debug\net7.0\itext.styledxmlparser.dll
+C:\Projetos\Giga_Card\GigaCard\bin\Debug\net7.0\itext.svg.dll
+C:\Projetos\Giga_Card\GigaCard\bin\Debug\net7.0\itext.commons.dll
+C:\Projetos\Giga_Card\GigaCard\bin\Debug\net7.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Projetos\Giga_Card\GigaCard\bin\Debug\net7.0\BouncyCastle.Crypto.dll
