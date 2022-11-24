@@ -2,10 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\GigaCard",
+    "\\GigaCard\\Areas",
     "\\GigaCard\\Areas\\Identity",
     "\\GigaCard\\Areas\\Identity\\Pages",
-    "\\GigaCard\\Views\\Home"
+    "\\GigaCard\\Controllers",
+    "\\GigaCard\\Views",
+    "\\GigaCard\\Views\\Home",
+    "\\GigaCard\\Views\\Shared"
   ],
-  "SelectedNode": "\\GigaCard",
+  "SelectedNode": "\\GigaCard\\Controllers\\GeraPDFController.cs",
   "PreviewInSolutionExplorer": false
 }
