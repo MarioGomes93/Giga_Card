@@ -10,6 +10,6 @@
     "\\GigaCard\\Views\\Home",
     "\\GigaCard\\Views\\Shared"
   ],
-  "SelectedNode": "\\GigaCard\\Controllers\\GeraPDFController.cs",
+  "SelectedNode": "\\GigaCard\\Views\\Home\\NovoCartao.cshtml",
   "PreviewInSolutionExplorer": false
 }

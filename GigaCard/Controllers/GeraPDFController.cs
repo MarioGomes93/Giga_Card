@@ -9,5 +9,5 @@ namespace AspCore_PDF.Controllers;
 
 public class GeraPDFController : Controller
 {
-    public IActionResult VisualizarComoPDF() => new ViewAsPdf("Card");
+    public IActionResult VisualizarComoPDF => new ViewAsPdf("NovoCartao");
 }
