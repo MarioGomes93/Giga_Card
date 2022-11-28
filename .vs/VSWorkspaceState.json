@@ -2,14 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\GigaCard",
-    "\\GigaCard\\Areas",
-    "\\GigaCard\\Areas\\Identity",
-    "\\GigaCard\\Areas\\Identity\\Pages",
     "\\GigaCard\\Controllers",
+    "\\GigaCard\\Models",
     "\\GigaCard\\Views",
     "\\GigaCard\\Views\\Home",
-    "\\GigaCard\\Views\\Shared"
+    "\\GigaCard\\Views\\Shared",
+    "\\GigaCard\\wwwroot",
+    "\\GigaCard\\wwwroot\\js",
+    "\\GigaCard\\wwwroot\\lib\\bootstrap"
   ],
-  "SelectedNode": "\\GigaCard\\Views\\Home\\NovoCartao.cshtml",
+  "SelectedNode": "\\GigaCard\\wwwroot\\js\\site.js",
   "PreviewInSolutionExplorer": false
 }

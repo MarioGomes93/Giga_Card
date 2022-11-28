@@ -1,8 +1,28 @@
 @{
     ViewData["Title"] = "Seus cartoes";
 }
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/GigaCard.styles.css" asp-append-version="true" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
 
-<div class="text-center">
-    <h1 class="display-4">Faça um novo cartão ou remodele um existente</h1>
-    <p>Acesse o suporte em caso de dúvidas.</p>
-</div>
+    <div class="text-center Content">
+        <h1 class="display-4">FaÃ§a um novo cartÃ£o ou remodele um existente</h1>
+        <p>Acesse o suporte em caso de dÃºvidas.</p>
+    </div>
+
+    <button onclick="downloadPDF()">Download</button>
+
+    <script src="~/js/site.js"></script>
+
+</body>
+</html>
+
+
+
+
