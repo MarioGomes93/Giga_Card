@@ -3,14 +3,14 @@
     "",
     "\\GigaCard",
     "\\GigaCard\\Controllers",
+    "\\GigaCard\\Migrations",
     "\\GigaCard\\Models",
     "\\GigaCard\\Views",
     "\\GigaCard\\Views\\Home",
     "\\GigaCard\\Views\\Shared",
     "\\GigaCard\\wwwroot",
-    "\\GigaCard\\wwwroot\\js",
-    "\\GigaCard\\wwwroot\\lib\\bootstrap"
+    "\\GigaCard\\wwwroot\\js"
   ],
-  "SelectedNode": "\\GigaCard\\wwwroot\\js\\site.js",
+  "SelectedNode": "\\GigaCard\\Migrations\\20221122212440_CriacaoTabelaUsuarios.Designer.cs",
   "PreviewInSolutionExplorer": false
 }
