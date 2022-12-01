@@ -74,14 +74,6 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[7.0.0, )"
-            },
-            "Rotativa.AspNetCore": {
-              "target": "Package",
-              "version": "[1.2.0, )"
-            },
-            "itext7": {
-              "target": "Package",
-              "version": "[7.2.4, )"
             }
           },
           "imports": [

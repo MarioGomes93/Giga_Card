@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\GigaCard",
+    "\\GigaCard\\Areas",
+    "\\GigaCard\\Areas\\Identity",
+    "\\GigaCard\\Areas\\Identity\\Pages",
     "\\GigaCard\\Controllers",
-    "\\GigaCard\\Migrations",
-    "\\GigaCard\\Models",
     "\\GigaCard\\Views",
     "\\GigaCard\\Views\\Home",
-    "\\GigaCard\\Views\\Shared",
     "\\GigaCard\\wwwroot",
     "\\GigaCard\\wwwroot\\js"
   ],
-  "SelectedNode": "\\GigaCard\\Migrations\\20221122212440_CriacaoTabelaUsuarios.Designer.cs",
+  "SelectedNode": "\\GigaCard\\Views\\Home\\Cartoes.cshtml",
   "PreviewInSolutionExplorer": false
 }
