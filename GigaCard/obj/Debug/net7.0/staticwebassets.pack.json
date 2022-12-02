@@ -13,6 +13,50 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Projetos\\Giga_Card\\GigaCard\\wwwroot\\js\\FileSaver.js\\.gitignore",
+      "PackagePath": "staticwebassets\\js\\FileSaver.js\\.gitignore"
+    },
+    {
+      "Id": "C:\\Projetos\\Giga_Card\\GigaCard\\wwwroot\\js\\FileSaver.js\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\js\\FileSaver.js\\CHANGELOG.md"
+    },
+    {
+      "Id": "C:\\Projetos\\Giga_Card\\GigaCard\\wwwroot\\js\\FileSaver.js\\LICENSE.md",
+      "PackagePath": "staticwebassets\\js\\FileSaver.js\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Projetos\\Giga_Card\\GigaCard\\wwwroot\\js\\FileSaver.js\\README.md",
+      "PackagePath": "staticwebassets\\js\\FileSaver.js\\README.md"
+    },
+    {
+      "Id": "C:\\Projetos\\Giga_Card\\GigaCard\\wwwroot\\js\\FileSaver.js\\bower.json",
+      "PackagePath": "staticwebassets\\js\\FileSaver.js\\bower.json"
+    },
+    {
+      "Id": "C:\\Projetos\\Giga_Card\\GigaCard\\wwwroot\\js\\FileSaver.js\\dist\\FileSaver.js",
+      "PackagePath": "staticwebassets\\js\\FileSaver.js\\dist\\FileSaver.js"
+    },
+    {
+      "Id": "C:\\Projetos\\Giga_Card\\GigaCard\\wwwroot\\js\\FileSaver.js\\dist\\FileSaver.min.js",
+      "PackagePath": "staticwebassets\\js\\FileSaver.js\\dist\\FileSaver.min.js"
+    },
+    {
+      "Id": "C:\\Projetos\\Giga_Card\\GigaCard\\wwwroot\\js\\FileSaver.js\\dist\\FileSaver.min.js.map",
+      "PackagePath": "staticwebassets\\js\\FileSaver.js\\dist\\FileSaver.min.js.map"
+    },
+    {
+      "Id": "C:\\Projetos\\Giga_Card\\GigaCard\\wwwroot\\js\\FileSaver.js\\package-lock.json",
+      "PackagePath": "staticwebassets\\js\\FileSaver.js\\package-lock.json"
+    },
+    {
+      "Id": "C:\\Projetos\\Giga_Card\\GigaCard\\wwwroot\\js\\FileSaver.js\\package.json",
+      "PackagePath": "staticwebassets\\js\\FileSaver.js\\package.json"
+    },
+    {
+      "Id": "C:\\Projetos\\Giga_Card\\GigaCard\\wwwroot\\js\\FileSaver.js\\src\\FileSaver.js",
+      "PackagePath": "staticwebassets\\js\\FileSaver.js\\src\\FileSaver.js"
+    },
+    {
       "Id": "C:\\Projetos\\Giga_Card\\GigaCard\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
