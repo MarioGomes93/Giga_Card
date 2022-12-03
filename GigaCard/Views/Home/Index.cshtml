@@ -7,16 +7,50 @@
     <p>Aqui você terá ferramentas que o ajudarão a divulgar o seu trabalho.</p>
 </div>
 
-<form method="post" enctype="multipart/form-data" asp-controller="Home" asp-action="Index">
-    <div class="form-group">
-        <div class="col-md-10" style="margin-bottom: 10px">
-            <p>Para fazer Upload de um ou mais arquivos, use este formulário:</p>
-            <input type="file" name="arquivos" multiple="" />
-        </div>
-        <div class="form-group">
-            <div class="col-md-10">
-                <input type="submit" value="Upload" />
-            </div>
-        </div>
-    </div>
+<script type="text/javascript">
+    function MostrarProgresso() {
+        document.getElementById('<% Response.Write(UpdateProgress1.ClientID)%>').style.display = "inline";
+    }
+</script>
+
+<form id="form1" runat="server">
+    <h1>
+        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="http://www.macoratti.net">Macoratti .net</asp:HyperLink>
+    </h1>
+    <hr />
+    <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+    <asp:UpdateProgress ID="UpdateProgress1" runat="server" AssociatedUpdatePanelID="UpdatePanel1">
+        <ProgressTemplate>
+            Por favor, Aguarde....
+        </ProgressTemplate>
+    </asp:UpdateProgress>
+    <asp:UpdatePanel ID="UpdatePanel1" runat="server" UpdateMode="Always">
+        <ContentTemplate>
+            <asp:FileUpload ID="FileUpload1" runat="server" Width="400px" />
+            <asp:Button ID="btnEnviarArquivo" runat="server" Text="Enviar Arquivo" OnClick="btnEnviarArquivo_Click" OnClientClick="MostrarProgresso();" />
+            <br />
+            <asp:Label ID="lblmsg" runat="server" Text=""></asp:Label>
+        </ContentTemplate>
+        <Triggers>
+            <asp:PostBackTrigger ControlID="btnEnviarArquivo" runat="server" />
+        </Triggers>
+    </asp:UpdatePanel>
+    <asp:GridView ID="gvArquivos" runat="server" Height="131px" Width="787px"></asp:GridView>
 </form>
+
+    <form method="post" enctype="multipart/form-data" asp-controller="Home" asp-action="Index">
+        <div class="form-group">
+            <div class="col-md-10" style="margin-bottom: 10px">
+                <p>Para fazer Upload de um ou mais arquivos, use este formulário:</p>
+                <input type="file" name="arquivos" multiple="" />
+            </div>
+            <div class="form-group">
+                <div class="col-md-10" style="margin-bottom: 10px">
+                    <input type="submit" value="Upload" />
+                </div>
+            </div>
+            <asp:Button runat="server" Text="Button" OnClick="Enviar">Enviar de novo</asp:Button>
+            <asp:FileUpload id="Enviar" runat="server">Enviar</asp:FileUpload>
+        </div>
+    </form>
+
