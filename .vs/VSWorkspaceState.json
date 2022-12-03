@@ -3,14 +3,14 @@
     "",
     "\\GigaCard",
     "\\GigaCard\\Areas",
-    "\\GigaCard\\Controllers",
+    "\\GigaCard\\Areas\\Identity",
+    "\\GigaCard\\Areas\\Identity\\Pages",
     "\\GigaCard\\Migrations",
+    "\\GigaCard\\Models",
     "\\GigaCard\\Views",
     "\\GigaCard\\Views\\Home",
-    "\\GigaCard\\Views\\Shared",
-    "\\GigaCard\\wwwroot",
-    "\\GigaCard\\wwwroot\\js"
+    "\\GigaCard\\Views\\Shared"
   ],
-  "SelectedNode": "\\GigaCard\\GigaCard.csproj",
+  "SelectedNode": "\\GigaCard",
   "PreviewInSolutionExplorer": false
 }

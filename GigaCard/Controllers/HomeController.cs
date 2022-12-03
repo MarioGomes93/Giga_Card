@@ -66,6 +66,8 @@ public class HomeController : Controller
         return Ok(new { files.Count, size, filePaths });
     }
 
+
+
     
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
