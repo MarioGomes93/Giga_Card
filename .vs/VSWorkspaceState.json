@@ -2,15 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\GigaCard",
-    "\\GigaCard\\Areas",
-    "\\GigaCard\\Areas\\Identity",
-    "\\GigaCard\\Areas\\Identity\\Pages",
-    "\\GigaCard\\Migrations",
+    "\\GigaCard\\Controllers",
+    "\\GigaCard\\Data",
     "\\GigaCard\\Models",
     "\\GigaCard\\Views",
     "\\GigaCard\\Views\\Home",
-    "\\GigaCard\\Views\\Shared"
+    "\\GigaCard\\wwwroot"
   ],
-  "SelectedNode": "\\GigaCard",
+  "SelectedNode": "\\GigaCard\\Controllers\\HomeController.cs",
   "PreviewInSolutionExplorer": false
 }

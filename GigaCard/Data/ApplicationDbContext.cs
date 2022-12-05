@@ -11,4 +11,8 @@ public class ApplicationDbContext : IdentityDbContext
     {
     }
 
+    public DbSet<Cartao>? Cartoes { get; set; }
+    public DbSet<Suporte>? Suportes { get; set; }
+
+
 }
