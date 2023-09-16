@@ -10,39 +10,16 @@ using Microsoft.AspNetCore.Http;
 
 namespace GigaCard.Controllers;
 
-public class HomeController : Controller
+public class NovoCartaoController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
+    private readonly ILogger<NovoCartaoController> _logger;
 
-    public HomeController(ILogger<HomeController> logger)
+    public NovoCartaoController(ILogger<NovoCartaoController> logger)
     {
         _logger = logger;
     }
 
-    public IActionResult Suporte()
-    {
-        return View();
-    }
-
-    public IActionResult Index()
-    {
-        return View();
-    }
-
-    public IActionResult NovoCartao()
-    {
-        return View();
-    }
-
-    public IActionResult Privacy()
-    {
-        return View();
-    }
-
-    public IActionResult Remodelar()
-    {
-        return View();
-    }
+    
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

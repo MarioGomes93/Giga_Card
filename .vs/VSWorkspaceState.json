@@ -3,12 +3,8 @@
     "",
     "\\GigaCard",
     "\\GigaCard\\Controllers",
-    "\\GigaCard\\Data",
     "\\GigaCard\\Models",
-    "\\GigaCard\\Views",
-    "\\GigaCard\\Views\\Home",
-    "\\GigaCard\\wwwroot"
+    "\\GigaCard\\Views"
   ],
-  "SelectedNode": "\\GigaCard\\Controllers\\HomeController.cs",
   "PreviewInSolutionExplorer": false
 }

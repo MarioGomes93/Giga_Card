@@ -2,31 +2,42 @@
     ViewData["Title"] = "Seus cartoes";
 }
 <html>
-<head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/GigaCard.styles.css" asp-append-version="true" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
-</head>
-<body>
-    <div>
-        <h1 class="display-5">Faça um novo cartão ou remodele um existente</h1>
-        <p>Acesse o suporte em caso de dúvidas.</p>
-    </div>
-
-    <div class="Content">
-        <div class="row">
-            <div class="col-md-5">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/GigaCard.styles.css" asp-append-version="true" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    </head>
+    <body>
+        <div>
+            <h1 class="display-5">Faça um novo cartão ou remodele um existente</h1>
+            <p>Acesse o suporte em caso de dúvidas.</p>
+        </div>  
+        <div class="row" style="margin-top: 40px">
+            <div class="col-md-7">
+                <form method="post" enctype="multipart/form-data" asp-controller="Home" asp-action="/upload/image">
+                    <div class="form-group">
+                        <div class="col-md-10" style="margin-bottom: 10px">
+                            <p>Para fazer Upload de um ou mais arquivos, use este formulário:</p>
+                            <input id="file" type="file" name="arquivos" multiple="" />
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-10" style="margin-bottom: 10px">
+                                <input type="submit" value="Upload" />
+                            </div>
+                        </div>
+                    </div>
+                </form>
             </div>
-            <div class="col-md-3" style="border: 1px solid; border-radius: 20px; height: 25rem; margin-bottom: 20px">
+            <div class="col-md-3 Content" style="border: 1px solid; border-radius: 20px; height: 25rem; margin-bottom: 20px">
+             
             </div>
         </div>
-    </div>
 
-    <button onclick="downloadPDF()">Download</button>
+        <button onclick="downloadPDF()">Download</button>
 
-    <script src="~/js/site.js"></script>
+        <script src="~/js/site.js"></script>
 
     </body>
 </html>

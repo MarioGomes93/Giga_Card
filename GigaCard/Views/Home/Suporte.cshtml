@@ -1,0 +1,41 @@
+﻿@model IEnumerable<GigaCard.Models.Suporte>
+
+@{
+    ViewData["Title"] = "Suporte";
+}
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/GigaCard.styles.css" asp-append-version="true" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+    
+    <div>
+        <h1 class="display-6">Envie a sua dúvida e receba o suporte da equipe</h1>
+        <p>Acesse o suporte em caso de dúvidas.</p>
+    </div>
+
+    <div>
+
+        <p style="margin-top:20px">Seu telefone para contato</p>
+        <input id="Text1" type="text" />
+        <p style="margin-top:20px">Escreva a sua mensagem</p>
+        <input id="Text1" type="text" />
+        <p style="margin-top:20px">Anexe o seu cartão</p>
+        <input id="Card" type="file" />
+       
+
+    </div>
+
+    <script src="~/js/site.js"></script>
+
+</body>
+</html>
+
+
+
+
